@@ -1,3 +1,5 @@
+This is a tag v0.1
+
 this is a new file
 
 more updates are needed for v0.1
@@ -9,4 +11,3 @@ Technique 4 Viewing history: git log, gitk, gitx
 The history in Git is the complete list of all commits made since the repository was cre- ated. The history also contains references to any branches, merges, and tags made within the repository. These three will be covered in technique 11, technique 14, and tech- nique 36.
 When you’re using Git, you’ll find yourself regularly checking the history: some- times to remind yourself of your own work, sometimes to see why other changes were
 
-This is a new tag
