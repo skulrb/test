@@ -1,0 +1,14 @@
+
+branch. You could do this by manually creating the same change on that branch, but a better way is to use the tool that Git provides: git cherry-pick.
+Let’s create a new branch based off the v0.1 tag called v0.1-release so you have something to cherry-pick:
+1 Change to the directory containing your repository: for example, cd /Users/mike/GitInPracticeRedux/.
+2 Run git checkout -b v0.1-release v0.1.
+3 Add some content to the 02-AdvancedGitInPractice.asciidoc file.
+4 Run git commit --message 'Advanced practice technique.' 02-Advanced-
+GitInPractice.asciidoc. The output should resemble the following.
+Listing 5.16 Output: committing the release branch
+# git commit --message 'Advanced practice technique.'
+    02-AdvancedGitInPractice.asciidoc
+[v0.1-release dfe2377] Advanced practice technique.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
