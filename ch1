@@ -1,0 +1,10 @@
+this is a new file
+
+more updates are needed for v0.1
+
+
+By following the parent commit, its parent, its parent, and so on, you can always get back from the cur- rent commit to the initial commit. You can see an example of parent commit pointers in figure 1.4.
+Now that you have two commits and have learned how they’re stored, we can start looking at Git’s history.
+Technique 4 Viewing history: git log, gitk, gitx
+The history in Git is the complete list of all commits made since the repository was cre- ated. The history also contains references to any branches, merges, and tags made within the repository. These three will be covered in technique 11, technique 14, and tech- nique 36.
+When you’re using Git, you’ll find yourself regularly checking the history: some- times to remind yourself of your own work, sometimes to see why other changes were
