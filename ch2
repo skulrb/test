@@ -1,4 +1,4 @@
-
+tag v0.1
 branch. You could do this by manually creating the same change on that branch, but a better way is to use the tool that Git provides: git cherry-pick.
 Let’s create a new branch based off the v0.1 tag called v0.1-release so you have something to cherry-pick:
 
